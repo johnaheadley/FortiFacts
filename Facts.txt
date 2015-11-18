@@ -1,7 +1,10 @@
-When configuring route redistribution, you cannot use multiple route-maps to control redistirbution
-When configuring route-maps, you cannot do a logical AND to match BGP communities
+When configuring route redistribution, you cannot use multiple route-maps to control redistirbution.
+When configuring route-maps, you cannot do a logical AND to match BGP communities.
 Even if your interfaces are administratively down, the networks allocated on them still appear in the active routing table.
 Preconfiguring a fortigate cluster and attepting to make a live HA will cause the Fortigate to disregard your HA proprities thus making the, probably factory default, fortigate your primary in the cluster.
 The ipsmonitor/ipsengine process can max out your cpu under mysterious circumstances, no matter the ammount of traffic.
 You cannot make insert a port into a software switch or aggregation without removing all your interface references. 
 If you make a support ticket, every solution is to format the device and reapply the firmware.
+Redistribution of BGP routes into OSPF causes the BGP next-hop to be put directly into the forward-address. This is not a behaviour you can modify.
+QinQ is not supported.
+FortiTokens can only be provisioned to one user and one device pairing in Fortimanager. Restriction does not apply on CLI.
