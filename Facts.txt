@@ -1,0 +1,2 @@
+When configuring route redistribution, you cannot use multiple route-maps to control redistirbution
+When configuring route-maps, you cannot do a logical AND to match BGP communities
