@@ -8,3 +8,4 @@ If you make a support ticket, every solution is to format the device and reapply
 Redistribution of BGP routes into OSPF causes the BGP next-hop to be put directly into the forward-address. This is not a behaviour you can modify.
 QinQ is not supported.
 FortiTokens can only be provisioned to one user and one device pairing in Fortimanager. Restriction does not apply on CLI.
+Route-map typo'd to routemap under OSPF redistribution hierarchy. Documented "internally". #wontfix
