@@ -9,3 +9,5 @@ Redistribution of BGP routes into OSPF causes the BGP next-hop to be put directl
 QinQ is not supported.
 FortiTokens can only be provisioned to one user and one device pairing in Fortimanager. Restriction does not apply on CLI.
 Route-map typo'd to routemap under OSPF redistribution hierarchy. Documented "internally". #wontfix
+Docs for their API cost $5000 (You need a developer account). Use of the API is free. 
+Certain read-only operations (Reading config) in the FortiManager cause config write. Even if the user is configured as read-only
