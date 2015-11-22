@@ -11,3 +11,5 @@ FortiTokens can only be provisioned to one user and one device pairing in Fortim
 Route-map typo'd to routemap under OSPF redistribution hierarchy. Documented "internally". #wontfix
 Docs for their API cost $5000 (You need a developer account). Use of the API is free. 
 Certain read-only operations (Reading config) in the FortiManager cause config write. Even if the user is configured as read-only
+Configuring SFLOW on a 1500D with 5.0.X caps throughput to 1Gbit/s
+Enabling IPSec NPU-Offloading on a 1500D with 5.0.X leads to _EVERY_ session on this NPU being dropped when rekeying occured
