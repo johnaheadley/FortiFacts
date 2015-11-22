@@ -15,3 +15,6 @@ Configuring SFLOW on a 1500D with 5.0.X caps throughput to 1Gbit/s
 Enabling IPSec NPU-Offloading on a 1500D with 5.0.X leads to _EVERY_ session on this NPU being dropped when rekeying occured
 When under DoS or DDOS attack, hearbeat traffic between two Fortigates is not highest prio so a failover can happen because of heartbeats missed. Workaround: Higher timeouts for failover
 When something CPU intensive happening (traffic burst, DoS, IPS going nuts) BFD packet generation is missed and route flapping happens
+Fortigate will beat the Guiness World Record for the most console port types ever used. 
+The GUI always seems to glitch, no matter the version of the browser.
+The firmware web upgrade shows no progress bar but you'll know when it's done. Unless you decided to refresh, then you'll know faster.
