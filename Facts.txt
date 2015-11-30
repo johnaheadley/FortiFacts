@@ -18,3 +18,5 @@ When something CPU intensive happening (traffic burst, DoS, IPS going nuts) BFD 
 Fortigate will beat the Guiness World Record for the most console port types ever used. 
 The GUI always seems to glitch, no matter the version of the browser.
 The firmware web upgrade shows no progress bar but you'll know when it's done. Unless you decided to refresh, then you'll know faster.
+Downgrading to previous firmware versions results in configuration loss on all models.
+"get system autoupdate" and "get system auto-update" are not the same thing.
