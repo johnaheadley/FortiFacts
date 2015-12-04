@@ -20,3 +20,4 @@ The GUI always seems to glitch, no matter the version of the browser.
 The firmware web upgrade shows no progress bar but you'll know when it's done. Unless you decided to refresh, then you'll know faster.
 Downgrading to previous firmware versions results in configuration loss on all models.
 "get system autoupdate" and "get system auto-update" are not the same thing.
+Can find non-numeric data in a GAUGE (fgProcessorUsage returns value of type GAUGE with added %)
