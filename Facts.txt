@@ -23,3 +23,5 @@ Downgrading to previous firmware versions results in configuration loss on all m
 Can find non-numeric data in a GAUGE (fgProcessorUsage returns value of type GAUGE with added %)
 Versions 4.x to 5.0.7 of FortiOS have a remotely exploitable backdoor ( https://t.co/6cOa1P5f4v ) 
 GUI can sometimes give you the everything is ok error ( https://i.imgur.com/3SPoS31.png )
+Interface descriptions are not exported to ifName or ifAlias in SNMP
+Fortimanager stores all session logs to edge devices in plain text on disk. Including sessions pushing plain text passwords.
