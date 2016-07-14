@@ -25,3 +25,4 @@ Versions 4.x to 5.0.7 of FortiOS have a remotely exploitable backdoor ( https://
 GUI can sometimes give you the everything is ok error ( https://i.imgur.com/3SPoS31.png )
 Interface descriptions are not exported to ifName or ifAlias in SNMP
 Fortimanager stores all session logs to edge devices in plain text on disk. Including sessions pushing plain text passwords.
+FortiOS 5.2.2 w/ sflow enabled breaks NPU offload for VPN encrypt/decrypt!
