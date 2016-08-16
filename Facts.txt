@@ -1,3 +1,4 @@
+Fortigates only support 4!!!! ECMP routes via iBGP/eBGP (ECMP load balancing across multiple (four) eBGP/iBGP connections.)
 When configuring route redistribution, you cannot use multiple route-maps to control redistirbution.
 When configuring route-maps, you cannot do a logical AND to match BGP communities.
 Even if your interfaces are administratively down, the networks allocated on them still appear in the active routing table.
