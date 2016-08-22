@@ -27,3 +27,6 @@ GUI can sometimes give you the everything is ok error ( https://i.imgur.com/3SPo
 Interface descriptions are not exported to ifName or ifAlias in SNMP
 Fortimanager stores all session logs to edge devices in plain text on disk. Including sessions pushing plain text passwords.
 FortiOS 5.2.2 w/ sflow enabled breaks NPU offload for VPN encrypt/decrypt!
+FortiOS 5.4.x removed the customize reports button, the button's functionality seemed to be platform dependant, not firmware version dependant.
+You cannot ssh/telnet out a specific source interface, only ping. 
+
