@@ -29,4 +29,5 @@ Fortimanager stores all session logs to edge devices in plain text on disk. Incl
 FortiOS 5.2.2 w/ sflow enabled breaks NPU offload for VPN encrypt/decrypt!
 FortiOS 5.4.x removed the customize reports button, the button's functionality seemed to be platform dependant, not firmware version dependant.
 You cannot ssh/telnet out a specific source interface, only ping. 
-
+The recommended firmware version in the GUI does not necessarily respect the upgrade matrix. 
+Adding multiple interfaces to a policy 5.4 is a 'feature' and must be enabled. 
