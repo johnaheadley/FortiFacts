@@ -35,3 +35,5 @@ FortiOS 5.4.x This issue is related with the default dh-param that is changed fr
 Putting fortigates into a cluster changes the mac addresses on their interfaces to a virtual cluster mac address. However this mac address is not generated using the BIA mac address, just the cluster id. That means if you have more than 1 cluster in the same L2 domain with the same cluster id, they would have identical mac addresses.
 LDAP auth issue was solved by clicking a button named "Advanced" on the Agent, no other settings. 
 You can access the internal zebos routing engine by doing 'telnet 127.0.0.1 2650' then you can jump to the root vsys.
+You cannot change a VLAN_ID of a vlan subinterface, nor it's attached interface. 
+Policy based vpn tunnels won't initiate without security policies. 
