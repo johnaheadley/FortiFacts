@@ -37,4 +37,5 @@ LDAP auth issue was solved by clicking a button named "Advanced" on the Agent, n
 You can access the internal zebos routing engine by doing 'telnet 127.0.0.1 2650' then you can jump to the root vsys.
 You cannot change a VLAN_ID of a vlan subinterface, nor it's attached interface. 
 Policy based vpn tunnels won't initiate without security policies. 
+Control plane security/features (Allowed Hosts/Protocols) cannot be mitigated by security policies. This means the Control plane comes before Security Policies.
 Obviously this restarts the ipsengine 'diag test application ipsmonitor 99'
